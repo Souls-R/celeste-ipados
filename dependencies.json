@@ -1,0 +1,35 @@
+{
+  "sources": {
+    "FNA": {
+      "url": "https://github.com/FNA-XNA/FNA.git",
+      "commit": "d52b4ce61e4086b785c51a96d331dbf106975a58"
+    },
+    "SDL2": {
+      "url": "https://github.com/libsdl-org/SDL.git",
+      "commit": "257cacab183b312bbe60bd7967eee44a3ad7be85"
+    },
+    "FNA3D": {
+      "url": "https://github.com/FNA-XNA/FNA3D.git",
+      "commit": "dba98a71514cc30f3c19dc19fc0a479be7c90d52"
+    }
+  },
+  "submodules": {
+    "FNA/lib/SDL2-CS": "2b8d237fd4585d14ea837764ac247d4cd200158f",
+    "FNA/lib/FAudio": "0e39055a3fb3c27de8dc02d650fe6a3da6c4de2c",
+    "FNA/lib/Theorafile": "0c5504658a3108919e53b625287786a87529de42",
+    "FNA3D/MojoShader": "c9037d90fa2f59b6be65d1391ca11d345356bad1"
+  },
+  "ilspycmd": "11.1.0.9782",
+  "fmod_ios": "1.10.11",
+  "game": {
+    "version": "1.4.0.0",
+    "steam_app": "504230",
+    "steam_macos_depot": "504232",
+    "celeste_exe_sha256": "3ee734ec8c767f638e9a7c2cbc07109f0a0bf1eb1973dbe447e99144ca9e7dd9"
+  },
+  "validated_toolchain": {
+    "dotnet_sdk": "10.0.402",
+    "ios_workload": "26.0.11017",
+    "xcode": "26.6"
+  }
+}

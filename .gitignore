@@ -1,0 +1,35 @@
+# Only authored source, metadata and documentation belong in this repository.
+# Game content, generated notice art, SDKs, IPA files and signing material stay
+# in the external build directory, even if accidentally copied here.
+*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/README_EN.md
+!/LICENSE
+!/THIRD_PARTY_NOTICES.md
+!/dependencies.json
+!/requirements.txt
+!/build.py
+!/scripts/
+/scripts/*
+!/scripts/*.py
+!/src/
+/src/*
+!/src/runtime/
+/src/runtime/*
+!/src/runtime/*.cs
+!/src/runtime/*.m
+!/src/runtime/*.c
+!/src/launch/
+/src/launch/*
+!/src/launch/strings.json
+!/src/launch/LaunchScreen.storyboard
+!/docs/
+/docs/*
+!/docs/*.md
+!/.github/
+/.github/*
+!/.github/ISSUE_TEMPLATE/
+/.github/ISSUE_TEMPLATE/*
+!/.github/ISSUE_TEMPLATE/bug_report.md
